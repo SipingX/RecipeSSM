@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" id="WebApp_ID"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                       
+							  http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+	
+	<welcome-file-list>
+    	<welcome-file>visit/index</welcome-file>
+  	</welcome-file-list>
+	
+	<!-- 配置加载 Spring 文件的监听器 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:applicationContext.xml</param-value>
+	</context-param>
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	
+	<!-- 编码过滤器 -->
+	<filter>
+		<filter-name>encoding</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encoding</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	
+	<!-- 配置 Spring MVC 前端控制器 DispatcherServlet -->
+	<servlet>
+		<!-- 配置前端过滤器 -->
+		<servlet-name>springmvc</servlet-name>
+			<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+			<!-- 配置 Spring MVC 加载配置文件路径 -->
+			<init-param>
+				<param-name>contextConfigLocation</param-name>
+				<param-value>classpath:springmvc-config.xml</param-value>
+			</init-param>
+			<!-- 配置服务器启动后立即加载 Spring MVC 配置文件 -->
+			<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<url-pattern>/visit/index</url-pattern>
+	</servlet-mapping>
+	
+	<!-- JSP（核心）标准标签库 -->
+	<jsp-config>
+	    <taglib>
+		      <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+		      <taglib-location>/WEB-INF/c.tld</taglib-location>
+	    </taglib>
+    </jsp-config>
+    
+</web-app>
