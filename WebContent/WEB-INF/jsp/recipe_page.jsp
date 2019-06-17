@@ -102,7 +102,7 @@
 			</li>
 
 			<li>
-				<a href="/RecipeSSM/visit/index" id="current">食谱</a>
+				<a href="/RecipeSSM/visit/recipe" id="current">食谱</a>
 			</li>
 
 			<li>
@@ -284,7 +284,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="getRecipePageAct?recipeId=2">
+					<a href="/RecipeSSM/visit/recipe_page?recipeId=2">
 						<img src="/RecipeSSM/images/recipeThumb-01a.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看食谱</div>
@@ -293,7 +293,7 @@
 
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="getRecipePageAct?recipeId=2">墨西哥烤玉米</a></h3>
+					<h3><a href="/RecipeSSM/visit/recipe_page?recipeId=2">墨西哥烤玉米</a></h3>
 					
 					<div class="rating five-stars">
 						<div class="star-rating"></div>
@@ -311,7 +311,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="../visit/recipe_page?recipeId=3">
+					<a href="/RecipeSSM/visit/recipe_page?recipeId=3">
 						<img src="/RecipeSSM/images/recipeThumb-07a.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看食谱</div>
@@ -320,7 +320,7 @@
 				
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="../visit/recipe_page?recipeId=3">柠檬咖喱鸡</a></h3>
+					<h3><a href="/RecipeSSM/visit/recipe_page?recipeId=3">柠檬咖喱鸡</a></h3>
 					
 					<div class="rating five-stars">
 						<div class="star-rating"></div>
@@ -338,7 +338,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="../visit/recipe_page?recipeId=7">
+					<a href="/RecipeSSM/visit/recipe_page?recipeId=7">
 						<img src="/RecipeSSM/images/recipeThumb-03a.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看食谱</div>
@@ -347,7 +347,7 @@
 				
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="getRecipePageAct?recipeId=7">咖喱鸡块</a></h3>
+					<h3><a href="/RecipeSSM/visit/recipe_page?recipeId=7">咖喱鸡块</a></h3>
 					
 					<div class="rating five-stars">
 						<div class="star-rating"></div>
@@ -636,10 +636,10 @@
 
 				<ul class="footer-links">
 					<li>
-						<a href="recipe.jsp">浏览食谱</a>
+						<a href="/RecipeSSM/visit/recipe">浏览食谱</a>
 					</li>
 					<li>
-						<a href="recipe_submit.jsp">上传食谱</a>
+						<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 					</li>
 				</ul>
 

@@ -79,7 +79,7 @@
 				<div class="three columns">
 					<div id="logo">
 						<h1>
-							<a href="index.jsp">
+							<a href="/RecipeSSM/visit/index">
 								<img src="/RecipeSSM/images/logo.png" alt="寻味环游记" />
 							</a>
 						</h1>

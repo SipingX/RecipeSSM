@@ -289,10 +289,10 @@ td {
 
 				<ul class="footer-links">
 					<li>
-						<a href="recipe.jsp">浏览食谱</a>
+						<a href="/RecipeSSM/visit/recipe">浏览食谱</a>
 					</li>
 					<li>
-						<a href="recipe_submit.jsp">上传食谱</a>
+						<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 					</li>
 				</ul>
 

@@ -27,8 +27,8 @@
 
 	<!-- CSS
 ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/colors/green.css" id="colors">
+	<link rel="stylesheet" href="/RecipeSSM/css/style.css">
+	<link rel="stylesheet" href="/RecipeSSM/css/colors/green.css" id="colors">
 
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -53,8 +53,8 @@
 				<div class="three columns">
 					<div id="logo">
 						<h1>
-							<a href="index.html">
-								<img src="images/logo.png" alt="寻味环游记" />
+							<a href="/RecipeSSM/visit/index">
+								<img src="/RecipeSSM/images/logo.png" alt="寻味环游记" />
 							</a>
 						</h1>
 					</div>
@@ -68,15 +68,15 @@
 					<nav id="navigation" class="menu nav-collapse">
 						<ul>
 							<li>
-								<a href="index.jsp">主页</a>
+								<a href="/RecipeSSM/visit/index">主页</a>
 							</li>
 
 							<li>
-								<a href="recipe.jsp">食谱</a>
+								<a href="/RecipeSSM/visit/recipe">食谱</a>
 							</li>
 
 							<li>
-								<a href="material.jsp">食材</a>
+								<a href="/RecipeSSM/visit/material">食材</a>
 							</li>
 
 							<li>
@@ -84,13 +84,13 @@
 							</li>
 
 							<li>
-								<a href="shop.jsp" id="current">购物</a>
+								<a href="/RecipeSSM/visit/shop" id="current">购物</a>
 							</li>
 
 							<li>
-								<a href="recipe_submit.jsp">上传食谱</a>
+								<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 								<ul>
-									<li><a href="contact.jsp">联系我们</a></li>
+									<li><a href="/RecipeSSM/visit/contact">联系我们</a></li>
 								</ul>
 							</li>
 							
@@ -98,13 +98,13 @@
 								<%
 									if(session.getAttribute("user") == null){
 								%>	
-										<a href="login.jsp">登录/注册</a>
+										<a href="/RecipeSSM/visit/login">登录/注册</a>
 								<% 
 									}else{
 								%>
-										<a href="user.jsp"><%= user.getName() %></a>
+										<a href="/RecipeSSM/visit/user"><%= user.getName() %></a>
 										<ul>
-											<li><a href="LogoutAct">退出登录</a></li>
+											<li><a href="/RecipeSSM/user/logout.action">退出登录</a></li>
 										</ul>
 								<%	
 									}
@@ -147,7 +147,7 @@
 
 						<div class="mediaholder">
 							<a href="product_page.jsp">
-								<img alt="" src="images/shop_item_01.jpg" />
+								<img alt="" src="/RecipeSSM/images/shop_item_01.jpg" />
 							</a>
 							<a href="#" class="product-button">
 								<i class="fa fa-shopping-cart"></i>
@@ -170,7 +170,7 @@
 
 						<div class="mediaholder">
 							<a href="product-page.html">
-								<img alt="" src="images/shop_item_02.jpg" />
+								<img alt="" src="/RecipeSSM/images/shop_item_02.jpg" />
 							</a>
 							<a href="#" class="product-button">
 								<i class="fa fa-shopping-cart"></i>
@@ -193,7 +193,7 @@
 
 						<div class="mediaholder">
 							<a href="product-page.html">
-								<img alt="" src="images/shop_item_03.jpg" />
+								<img alt="" src="/RecipeSSM/images/shop_item_03.jpg" />
 							</a>
 							<a href="#" class="product-button">
 								<i class="fa fa-shopping-cart"></i>
@@ -216,7 +216,7 @@
 
 						<div class="mediaholder">
 							<a href="product-page.html">
-								<img alt="" src="images/shop_item_04.jpg" />
+								<img alt="" src="/RecipeSSM/images/shop_item_04.jpg" />
 							</a>
 							<a href="#" class="product-button">
 								<i class="fa fa-shopping-cart"></i>
@@ -239,7 +239,7 @@
 
 						<div class="mediaholder">
 							<a href="product-page.html">
-								<img alt="" src="images/shop_item_05.jpg" />
+								<img alt="" src="/RecipeSSM/images/shop_item_05.jpg" />
 							</a>
 							<a href="#" class="product-button">
 								<i class="fa fa-shopping-cart"></i>
@@ -262,7 +262,7 @@
 
 						<div class="mediaholder">
 							<a href="product-page.html">
-								<img alt="" src="images/shop_item_06.jpg" />
+								<img alt="" src="/RecipeSSM/images/shop_item_06.jpg" />
 							</a>
 							<a href="#" class="product-button">
 								<i class="fa fa-shopping-cart"></i>
@@ -342,7 +342,7 @@
 
 							<li>
 								<a href="#" class="image">
-									<img src="images/shop_item_02a.jpg" alt="">
+									<img src="/RecipeSSM/images/shop_item_02a.jpg" alt="">
 								</a>
 								<div class="product_title">
 									<a href="#">混合草药</a>
@@ -420,10 +420,10 @@
 
 				<ul class="footer-links">
 					<li>
-						<a href="recipe.jsp">浏览食谱</a>
+						<a href="/RecipeSSM/visit/recipe">浏览食谱</a>
 					</li>
 					<li>
-						<a href="recipe_submit.jsp">上传食谱</a>
+						<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 					</li>
 				</ul>
 
@@ -475,23 +475,23 @@
 
 	<!-- Java Script
 ================================================== -->
-	<script src="scripts/jquery-1.11.0.min.js"></script>
-	<script src="scripts/jquery-migrate-1.2.1.min.js"></script>
-	<script src="scripts/jquery.superfish.js"></script>
-	<script src="scripts/jquery.royalslider.min.js"></script>
-	<script src="scripts/responsive-nav.js"></script>
-	<script src="scripts/hoverIntent.js"></script>
-	<script src="scripts/isotope.pkgd.min.js"></script>
-	<script src="scripts/chosen.jquery.min.js"></script>
-	<script src="scripts/jquery.tooltips.min.js"></script>
-	<script src="scripts/jquery.magnific-popup.min.js"></script>
-	<script src="scripts/jquery.pricefilter.js"></script>
-	<script src="scripts/custom.js"></script>
+	<script src="/RecipeSSM/scripts/jquery-1.11.0.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery-migrate-1.2.1.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.superfish.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.royalslider.min.js"></script>
+	<script src="/RecipeSSM/scripts/responsive-nav.js"></script>
+	<script src="/RecipeSSM/scripts/hoverIntent.js"></script>
+	<script src="/RecipeSSM/scripts/isotope.pkgd.min.js"></script>
+	<script src="/RecipeSSM/scripts/chosen.jquery.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.tooltips.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.magnific-popup.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.pricefilter.js"></script>
+	<script src="/RecipeSSM/scripts/custom.js"></script>
 
 
 	<!-- Style Switcher
 ================================================== -->
-	<script src="scripts/switcher.js"></script>
+	<script src="/RecipeSSM/scripts/switcher.js"></script>
 
 	<div id="style-switcher">
 		<h2>切换风格
