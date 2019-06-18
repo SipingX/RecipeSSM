@@ -146,7 +146,7 @@
 					<figure class="product">
 
 						<div class="mediaholder">
-							<a href="product_page.jsp">
+							<a href="/RecipeSSM/visit/product_page">
 								<img alt="" src="/RecipeSSM/images/shop_item_01.jpg" />
 							</a>
 							<a href="#" class="product-button">
@@ -154,7 +154,7 @@
 							</a>
 						</div>
 
-						<a href="product_page.jsp">
+						<a href="/RecipeSSM/visit/product_page">
 							<section>
 								<span class="product-category">香料</span>
 								<h5>小豆蔻夹</h5>
@@ -169,7 +169,7 @@
 					<figure class="product">
 
 						<div class="mediaholder">
-							<a href="product-page.html">
+							<a href="#">
 								<img alt="" src="/RecipeSSM/images/shop_item_02.jpg" />
 							</a>
 							<a href="#" class="product-button">
@@ -177,7 +177,7 @@
 							</a>
 						</div>
 
-						<a href="product-page.html">
+						<a href="#">
 							<section>
 								<span class="product-category">香料</span>
 								<h5>混合草药</h5>
@@ -192,7 +192,7 @@
 					<figure class="product">
 
 						<div class="mediaholder">
-							<a href="product-page.html">
+							<a href="#">
 								<img alt="" src="/RecipeSSM/images/shop_item_03.jpg" />
 							</a>
 							<a href="#" class="product-button">
@@ -200,7 +200,7 @@
 							</a>
 						</div>
 
-						<a href="product-page.html">
+						<a href="#">
 							<section>
 								<span class="product-category">香料</span>
 								<h5>辣椒粉</h5>
@@ -215,7 +215,7 @@
 					<figure class="product">
 
 						<div class="mediaholder">
-							<a href="product-page.html">
+							<a href="#">
 								<img alt="" src="/RecipeSSM/images/shop_item_04.jpg" />
 							</a>
 							<a href="#" class="product-button">
@@ -223,7 +223,7 @@
 							</a>
 						</div>
 
-						<a href="product-page.html">
+						<a href="#">
 							<section>
 								<span class="product-category">香料</span>
 								<h5>黑胡椒</h5>
@@ -238,7 +238,7 @@
 					<figure class="product">
 
 						<div class="mediaholder">
-							<a href="product-page.html">
+							<a href="#">
 								<img alt="" src="/RecipeSSM/images/shop_item_05.jpg" />
 							</a>
 							<a href="#" class="product-button">
@@ -246,7 +246,7 @@
 							</a>
 						</div>
 
-						<a href="product-page.html">
+						<a href="#">
 							<section>
 								<span class="product-category">香料</span>
 								<h5>孜然</h5>
@@ -261,7 +261,7 @@
 					<figure class="product">
 
 						<div class="mediaholder">
-							<a href="product-page.html">
+							<a href="#">
 								<img alt="" src="/RecipeSSM/images/shop_item_06.jpg" />
 							</a>
 							<a href="#" class="product-button">
@@ -269,7 +269,7 @@
 							</a>
 						</div>
 
-						<a href="product-page.html">
+						<a href="#">
 							<section>
 								<span class="product-category">香料</span>
 								<h5>大蒜粒</h5>

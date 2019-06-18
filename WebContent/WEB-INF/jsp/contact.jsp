@@ -29,8 +29,8 @@
 
 	<!-- CSS
 ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/colors/green.css" id="colors">
+	<link rel="stylesheet" href="/RecipeSSM/css/style.css">
+	<link rel="stylesheet" href="/RecipeSSM/css/colors/green.css" id="colors">
 
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -55,8 +55,8 @@
 				<div class="three columns">
 					<div id="logo">
 						<h1>
-							<a href="index.html">
-								<img src="images/logo.png" alt="寻味环游记" />
+							<a href="/RecipeSSM/visit/index">
+								<img src="/RecipeSSM/images/logo.png" alt="寻味环游记" />
 							</a>
 						</h1>
 					</div>
@@ -135,7 +135,7 @@
 			<nav id="breadcrumbs">
 				<ul>
 					<li>你在这里:</li>
-					<li><a href="#">主页</a></li>
+					<li><a href="/RecipeSSM/visit/index">主页</a></li>
 					<li>联系我们</li>
 				</ul>
 			</nav>
@@ -154,7 +154,7 @@
 <div class="container">
 	<div class="sixteen columns">
 		<div class="image-with-caption contact">
-			<img class="rsImg" src="images/contact.jpg" alt="" />
+			<img class="rsImg" src="/RecipeSSM/images/contact.jpg" alt="" />
 			<span>有问题的话请联系我们</span>
 		</div>
 	</div>
@@ -280,10 +280,10 @@
 
 				<ul class="footer-links">
 					<li>
-						<a href="recipe.jsp">浏览食谱</a>
+						<a href="/RecipeSSM/visit/recipe">浏览食谱</a>
 					</li>
 					<li>
-						<a href="recipe_submit.jsp">上传食谱</a>
+						<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 					</li>
 				</ul>
 
@@ -335,23 +335,23 @@
 
 	<!-- Java Script
 ================================================== -->
-	<script src="scripts/jquery-1.11.0.min.js"></script>
-	<script src="scripts/jquery-migrate-1.2.1.min.js"></script>
-	<script src="scripts/jquery.superfish.js"></script>
-	<script src="scripts/jquery.royalslider.min.js"></script>
-	<script src="scripts/responsive-nav.js"></script>
-	<script src="scripts/hoverIntent.js"></script>
-	<script src="scripts/isotope.pkgd.min.js"></script>
-	<script src="scripts/chosen.jquery.min.js"></script>
-	<script src="scripts/jquery.tooltips.min.js"></script>
-	<script src="scripts/jquery.magnific-popup.min.js"></script>
-	<script src="scripts/jquery.pricefilter.js"></script>
-	<script src="scripts/custom.js"></script>
+	<script src="/RecipeSSM/scripts/jquery-1.11.0.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery-migrate-1.2.1.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.superfish.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.royalslider.min.js"></script>
+	<script src="/RecipeSSM/scripts/responsive-nav.js"></script>
+	<script src="/RecipeSSM/scripts/hoverIntent.js"></script>
+	<script src="/RecipeSSM/scripts/isotope.pkgd.min.js"></script>
+	<script src="/RecipeSSM/scripts/chosen.jquery.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.tooltips.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.magnific-popup.min.js"></script>
+	<script src="/RecipeSSM/scripts/jquery.pricefilter.js"></script>
+	<script src="/RecipeSSM/scripts/custom.js"></script>
 
 
 	<!-- Style Switcher
 ================================================== -->
-	<script src="scripts/switcher.js"></script>
+	<script src="/RecipeSSM/scripts/switcher.js"></script>
 
 	<div id="style-switcher">
 		<h2>切换风格

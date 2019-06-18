@@ -49,7 +49,7 @@
 	<!-- Logo / Mobile Menu -->
 	<div class="three columns">
 		<div id="logo">
-			<h1><a href="index.html"><img src="images/logo.png" alt="Chow" /></a></h1>
+			<h1><a href="/RecipeSSM/visit/index"><img src="/RecipeSSM/images/logo.png" alt="Chow" /></a></h1>
 		</div>
 	</div>
 
@@ -61,47 +61,47 @@
 	<nav id="navigation" class="menu nav-collapse">
 		<ul>
 			<li>
-				<a href="index.jsp">主页</a>
+				<a href="/RecipeSSM/visit/index">主页</a>
 			</li>
-
+	
 			<li>
-				<a href="recipe.jsp">食谱</a>
+				<a href="/RecipeSSM/visit/index">食谱</a>
 			</li>
-
+	
 			<li>
-				<a href="material.jsp" id="current">食材</a>
+				<a href="/RecipeSSM/visit/material" id="current">食材</a>
 			</li>
-
+	
 			<li>
 				<a href="#">话题</a>
 			</li>
-
+	
 			<li>
-				<a href="shop.jsp">购物</a>
+				<a href="/RecipeSSM/visit/shop">购物</a>
 			</li>
-
+	
 			<li>
-				<a href="recipe_submit.jsp">上传食谱</a>
+				<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 				<ul>
-					<li><a href="contact.jsp">联系我们</a></li>
+					<li><a href="/RecipeSSM/visit/contact">联系我们</a></li>
 				</ul>
 			</li>
 			
 			<li>
 				<%
-					if(session.getAttribute("user") == null){
-				%>	
-						<a href="login.jsp">登录/注册</a>
-				<% 
-					}else{
-				%>
-						<a href="user.jsp"><%= user.getName() %></a>
-						<ul>
-							<li><a href="LogoutAct">退出登录</a></li>
-						</ul>
-				<%	
-					}
-				%>
+				if(session.getAttribute("user") == null){
+			%>	
+					<a href="/RecipeSSM/visit/login">登录/注册</a>
+			<% 
+				}else{
+			%>
+					<a href="/RecipeSSM/visit/user"><%= user.getName() %></a>
+					<ul>
+						<li><a href="/RecipeSSM/user/logout.action">退出登录</a></li>
+					</ul>
+			<%	
+				}
+			%>
 			</li>
 		</ul>
 	</nav>
@@ -251,10 +251,10 @@
 
 				<ul class="footer-links">
 					<li>
-						<a href="recipe.jsp">浏览食谱</a>
+						<a href="/RecipeSSM/visit/recipe">浏览食谱</a>
 					</li>
 					<li>
-						<a href="recipe_submit.jsp">上传食谱</a>
+						<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 					</li>
 				</ul>
 

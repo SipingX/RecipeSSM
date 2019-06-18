@@ -107,7 +107,7 @@ td {
 							</li>
 
 							<li>
-								<a href="material.jsp">食材</a>
+								<a href="/RecipeSSM/visit/material">食材</a>
 							</li>
 
 							<li>
@@ -115,13 +115,13 @@ td {
 							</li>
 
 							<li>
-								<a href="shop.jsp">购物</a>
+								<a href="/RecipeSSM/visit/shop">购物</a>
 							</li>
 
 							<li>
 								<a href="/RecipeSSM/visit/recipe_upload">上传食谱</a>
 								<ul>
-									<li><a href="contact.jsp">联系我们</a></li>
+									<li><a href="/RecipeSSM/visit/contact">联系我们</a></li>
 								</ul>
 							</li>
 							

@@ -139,7 +139,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="material_group.jsp">
+					<a href="/RecipeSSM/visit/material_page">
 						<img src="/RecipeSSM/images/recipeThumb-09.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看分类</div>
@@ -148,7 +148,7 @@
 
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="original-page-1.html">肉禽类</a></h3>
+					<h3><a href="/RecipeSSM/visit/material_page">肉禽类</a></h3>
 
 					<p>此类别以肉禽类为主，介绍了各肉禽类的营养与选购，用户可选择喜欢的烹饪方法。</p>
 
@@ -161,7 +161,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="original-page-2.html">
+					<a href="#">
 						<img src="/RecipeSSM/images/sliderB_07.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看分类</div>
@@ -170,7 +170,7 @@
 
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="recipe-page-2.html">水产品类</a></h3>
+					<h3><a href="#">水产品类</a></h3>
 
 					<p>此类别以水产品类为主，介绍了水产品类的营养与选购，用户可选择喜欢的烹饪方式。</p>
 
@@ -183,7 +183,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="original-page-3.html">
+					<a href="#">
 						<img src="/RecipeSSM/images/recipeThumb-01b.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看分类</div>
@@ -192,7 +192,7 @@
 
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="original-page-3.html">蔬菜类</a></h3>
+					<h3><a href="#">蔬菜类</a></h3>
 
 					<p>此类别以蔬菜类为主，介绍了蔬菜类的营养与选购，用户可选择喜欢的烹饪方式。</p>
 
@@ -205,7 +205,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="original-page-4.html">
+					<a href="#">
 						<img src="/RecipeSSM/images/recipeThumb-04b.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看分类</div>
@@ -214,7 +214,7 @@
 
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="original-page-4.html">水果类</a></h3>
+					<h3><a href="#">水果类</a></h3>
 
 					<p>此类别以水果类为主，介绍了水果类的营养与选购，用户可选择喜欢的烹饪方式。</p>
 
@@ -227,7 +227,7 @@
 
 				<!-- Thumbnail -->
 				<div class="thumbnail-holder">
-					<a href="original-page-5.html">
+					<a href="#">
 						<img src="/RecipeSSM/images/recipeThumb-02b.jpg" alt=""/>
 						<div class="hover-cover"></div>
 						<div class="hover-icon">查看分类</div>
@@ -236,7 +236,7 @@
 
 				<!-- Content -->
 				<div class="recipe-box-content">
-					<h3><a href="original-page-5.html">甜品类</a></h3>
+					<h3><a href="#">甜品类</a></h3>
 
 					<p>此类别以甜品为主，介绍了在家就可以制作的简单小甜品食谱。</p>
 

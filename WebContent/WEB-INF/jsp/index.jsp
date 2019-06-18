@@ -355,7 +355,7 @@
 				<!-- Search Form -->
 				<div class="widget search-form">
 					<nav class="search">
-						<form action="recipe.jsp" method="get">
+						<form action="/RecipeSSM/visit/recipe" method="get">
 							<button>
 								<i class="fa fa-search"></i>
 							</button>
