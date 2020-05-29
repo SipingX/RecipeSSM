@@ -98,7 +98,7 @@
 			</li>
 
 			<li>
-				<a href="/RecipeSSM/visit/index" id="current">食谱</a>
+				<a href="/RecipeSSM/visit/recipe" id="current">食谱</a>
 			</li>
 
 			<li>

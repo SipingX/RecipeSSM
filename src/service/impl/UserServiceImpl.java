@@ -35,7 +35,9 @@ public class UserServiceImpl implements UserService {
 	public User getUser(String id) {
 		// TODO Auto-generated method stub
 		User user = this.mapper.selectByPrimaryKey(id);
-		user.setPortrait("/RecipeSSM/" + user.getPortrait());
+		if(user != null) {
+			user.setPortrait("/RecipeSSM/" + user.getPortrait());
+		}
 		return user;
 	}
 

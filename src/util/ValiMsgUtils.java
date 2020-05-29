@@ -78,7 +78,9 @@ public class ValiMsgUtils {
 
 	    // 提交请求
 	    String result = post(url, body);
-	    //System.out.println("result:" + System.lineSeparator() + result);
+	    
+//	    System.out.println("result:" + System.lineSeparator() + result);
+	    
 	    return result.indexOf("请求成功")!=-1 ? true : false;
 	}
 	
@@ -109,8 +111,8 @@ public class ValiMsgUtils {
 	 * @throws IOException
 	 */
 	public static String post(String url, String body){
-		//System.out.println("url:" + System.lineSeparator() + url);
-		//System.out.println("body:" + System.lineSeparator() + body);
+//		System.out.println("url:" + System.lineSeparator() + url);
+//		System.out.println("body:" + System.lineSeparator() + body);
 
 		String result = "";
 		try{

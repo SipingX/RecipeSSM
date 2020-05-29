@@ -446,7 +446,7 @@ public class RecipeController {
 	 */
 	@GetMapping("/initRecipe.action")
 	public String initRecipe(HttpServletRequest request) {
-		int state = 0;	// 状态为0，表示请求初始页面信息
+		int state = 0;	// 状态为0，表示请求初始页面信息（相对于请求食谱搜索页面信息）
 		
 	// 分页食谱
 		int page = 1;

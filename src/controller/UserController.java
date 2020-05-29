@@ -19,6 +19,7 @@ import com.github.pagehelper.PageInfo;
 
 import pojo.User;
 import service.UserService;
+import util.demo.SDKTestSendTemplateSMS;
 /*
  * 用户控制器类
  */
@@ -44,7 +45,7 @@ public class UserController {
 				return "login";
 			}
 		}else {
-			model.addAttribute("msg", "该账号不存在，请先进行注册！");
+			model.addAttribute("msg", "账号不存在，请先注册！");
 			return "login";
 		}
 	}
@@ -53,6 +54,20 @@ public class UserController {
 	public String logout(HttpSession session) {
 		session.removeAttribute("user");
 		return "login";
+	}
+	
+	// 发现：运用 SpringMVC 框架后，（可能是请求拦截的作用）使得请求 Servlet 行不通
+	@GetMapping("/sendMsg.action")
+	public void sendMsg(HttpServletRequest request, String value) {
+		System.out.println("准备发送短信！");
+		if(value.matches("^1[34578]\\d{9}$")){
+//			request.getSession().setAttribute("valiNum", ValiMsgUtils.send(value));
+			request.getSession().setAttribute("valiNum", SDKTestSendTemplateSMS.send(value));
+			
+			System.out.println("短信发送成功！");
+		}else {
+			System.out.println("短信发送失败！(号码格式不匹配)");
+		}
 	}
 	
 	@PostMapping("/register.action")

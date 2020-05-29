@@ -34,7 +34,7 @@
 		
 		function send(){
 			$.ajax({  
-				url: "sendMsg",  
+				url: "/RecipeSSM/user/sendMsg.action",  
 				type: "get",  
 				dataType: "json",  
 				data: {'value': $("input[name='userId_2']").val()},
